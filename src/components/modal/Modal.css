@@ -1,0 +1,6 @@
+.modal__container {
+    background: #d2a;
+    z-index: 20;
+    width: 1000px;
+    height: 1000px;
+}

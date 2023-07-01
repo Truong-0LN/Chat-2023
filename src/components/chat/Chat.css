@@ -1,0 +1,151 @@
+.chat {
+    display: flex;
+    flex: 1;
+    height: 90vh;
+    border: 1px solid;
+}
+
+.chat-list__room {
+    flex: 1;
+}
+
+.chat-message__container {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+}
+
+.chat-message__container form {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #eee222;
+    align-items: flex-end;
+}
+
+.chat-message__container ul {
+    display: flex;
+    flex-direction: column;
+    flex: 13;
+}
+
+.chat-message__container .form__input input {
+    width: 100%;
+    height: 40px;
+}
+
+.chat-message__container .form__input {
+    display: flex;
+
+}
+
+.chat-message__container .form__input button {
+    width: 120px;
+    height: 40px;
+    background: #63aff5;
+    border: none;
+}
+
+.chat-message__container .form__input button:active {
+    background: #63aff5;
+    border: 1px solid #d3d3d3;
+}
+
+.chat-message__container .form__input button:hover {
+    background: #63aff5;
+    border: none;
+    cursor: pointer;
+}
+
+.chat-message__container .scroll {
+    display: flex;
+    flex-direction: column;
+    flex: 13;
+    scroll-behavior: smooth;
+    display: block;
+    overflow-y: scroll;
+    scroll-snap-type: y proximity;
+}
+
+.chat .chat__logined {
+    display: none;
+}
+
+.chat .chat__login {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 0px 20px;
+}
+
+.chat .chat__login input {
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 6px;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #d5d5d5;
+}
+
+.chat .chat__login button {
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid #d5d5d5;
+}
+
+.chat .chat__login button:hover,
+.chat .chat__login button:active {
+
+    border: 2px solid #d5d5d5;
+}
+
+.chat-list__room button {
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #d5d5d5;
+    padding: 10px;
+    margin-left: 50%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.chat-list__room button:active {
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px inset #d5d5d5;
+    padding: 10px;
+}
+
+.chat__info img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.chat__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.chat__info h3 {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: royalblue;
+}
+
+.chat__info p {
+    color: rgb(1, 8, 30);
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.chat__login select {
+    height: 30px;
+    border-radius: 6px;
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 20px;
+}
