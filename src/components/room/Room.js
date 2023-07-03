@@ -6,7 +6,7 @@ const Room = ({ room, eventClick, currentRoom }) => {
             <img src={require('../../assets/images/logo192.png')} alt='room avatar' />
             <div className='room__container-title'>
                 <h3 >{room?.name}</h3>
-                <p>last message</p>
+                <p>{room?.id_message?.message}</p>
             </div>
 
         </div>
